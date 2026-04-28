@@ -1,0 +1,534 @@
+{
+  "map_settings": {
+    "non_placeable_margins_label": 1,
+    "num_maps_to_generate": 10000,
+    "generate_existing_maps": true,
+    "posts_on_maps_amount": 0.5
+  },
+  "backgrounds": {
+    "background1.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 50,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background2.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 260,
+      "origin_y": 340,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 50,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background3.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 50,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background4.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 210,
+      "origin_y": 570,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 70,
+        "left": 0,
+        "right": 240
+      }
+    },
+    "background5.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 260,
+      "origin_y": 140,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -9,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 50,
+        "left": 0,
+        "right": 270
+      }
+    },
+    "background6.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 210,
+      "origin_y": 480,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 80,
+        "left": 0,
+        "right": 200
+      }
+    },
+    "background7.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 80,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 80,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background8.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 450,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background9.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 90,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background10.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 220,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background11.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 350,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background12.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 620,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background13.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 210,
+      "origin_y": 570,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 70,
+        "left": 0,
+        "right": 240
+      }
+    },
+    "background14.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 90,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background15.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 200,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background16.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 280,
+      "origin_y": 40,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 690,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background17.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 260,
+      "origin_y": 210,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 60,
+        "left": 0,
+        "right": 290
+      }
+    },
+    "background18.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 220,
+      "origin_y": 530,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 50,
+        "left": 0,
+        "right": 250
+      }
+    },
+    "background19.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 290,
+      "origin_y": 45,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 50,
+        "left": 0,
+        "right": 330
+      }
+    },
+    "background20.png": {
+      "map_width": 1920,
+      "map_height": 1080,
+      "origin_x": 290,
+      "origin_y": 45,
+      "x_offset_x": 65,
+      "x_offset_y": 0,
+      "y_offset_y": 50,
+      "tilt_angle_left": 6,
+      "tilt_angle_right": -6,
+      "y_offset_x_left": -7,
+      "y_offset_x_right": 7,
+      "non_placeable_margins": {
+        "top": 0,
+        "bottom": 300,
+        "left": 0,
+        "right": 330
+      }
+    }
+  },
+  "tiles": {
+    "bush": {
+      "connectable": false,
+      "variations": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 91,
+      "dimension_type": "width"
+    },
+    "air": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 1,
+      "target_dimension": 68,
+      "dimension_type": "width"
+    },
+    "blue_post": {
+      "connectable": true,
+      "connected_variants": ["edge_right", "edge_left", "isolated", "edge_bottom", "edge_top"],
+      "variations_per_variant": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 62,
+      "dimension_type": "height"
+    },
+    "block_of_stone&grass": {
+      "connectable": false,
+      "variations": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 80,
+      "dimension_type": "width"
+    },
+    "cubic_wall": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 78,
+      "dimension_type": "width"
+    },
+    "red_pottery": {
+      "connectable": false,
+      "variations": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 68,
+      "dimension_type": "width"
+    },
+    "wooden_barrel": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 65,
+      "dimension_type": "width"
+    },
+    "cactus": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 63,
+      "dimension_type": "width"
+    },
+    "wooden_box": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 73,
+      "dimension_type": "width"
+    },
+    "wooden_fence": {
+      "connectable": true,
+      "connected_variants": [
+        "edge_right", "isolated", "edge_left", "edge_bottom", "edge_top",
+        "side_horizontal", "side_vertical",
+        "two_bottom_left", "two_bottom_right", "two_top_left", "two_top_right"
+      ],
+      "variations_per_variant": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 70,
+      "dimension_type": "height"
+    },
+    "invincible_wall": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 71,
+      "dimension_type": "width"
+    },
+    "yellow_wall": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 69,
+      "dimension_type": "width"
+    },
+    "blue_barrel": {
+      "connectable": false,
+      "variations": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 73,
+      "dimension_type": "width"
+    },
+    "metallic_fence": {
+      "connectable": true,
+      "connected_variants": [
+        "edge_right", "isolated", "edge_left", "side_horizontal", "side_vertical"
+      ],
+      "variations_per_variant": 4,
+      "placement_probability": 0.1,
+      "target_dimension": 101,
+      "dimension_type": "height"
+    },
+    "blue_weights": {
+      "connectable": false,
+      "variations": 6,
+      "placement_probability": 0.1,
+      "target_dimension": 100,
+      "dimension_type": "height"
+    },
+    "potted_plant": {
+      "connectable": false,
+      "variations": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 64,
+      "dimension_type": "width"
+    },
+    "star_block": {
+      "connectable": false,
+      "variations": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 66,
+      "dimension_type": "width"
+    },
+    "bumper": {
+      "connectable": false,
+      "variations": 2,
+      "placement_probability": 0.1,
+      "target_dimension": 68,
+      "dimension_type": "width"
+    },
+    "yellow_metallic_box": {
+      "connectable": false,
+      "variations": 1,
+      "placement_probability": 0.1,
+      "target_dimension": 73,
+      "dimension_type": "width"
+    }
+  }
+}
