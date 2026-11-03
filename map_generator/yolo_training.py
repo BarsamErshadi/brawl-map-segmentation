@@ -85,6 +85,10 @@ def main():
     if not os.path.isfile(data_yaml):
         raise FileNotFoundError(f"Data configuration file '{data_yaml}' not found.")
 
+    # Resume only when a previous run left a checkpoint; otherwise start a fresh run.
+    checkpoint = os.path.join(project, run_name, 'weights', 'last.pt')
+    resume = os.path.isfile(checkpoint)
+
     # 1. TRAIN
     model = train_yolov11(
         data_yaml=data_yaml,
@@ -95,7 +99,7 @@ def main():
         device=device,
         project=project,
         name=run_name,
-        resume=True
+        resume=resume
     )
 
     # 2. EXPORT

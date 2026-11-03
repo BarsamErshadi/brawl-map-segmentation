@@ -155,7 +155,17 @@ def get_random_username():
         username += random.choice("abcdefghijklmnopqrstuvwxyz123456789._-/\\\"'!@#$%^&*()_+[]{}|;:,.<>?")
     return username
 
+SKINS_DIR = "fake_brawler_generator/skin_seg_3"
+
+
+def skins_available():
+    # Character cutouts aren't committed; without them, maps are generated without character distractors.
+    return os.path.isdir(SKINS_DIR) and len(os.listdir(SKINS_DIR)) > 0
+
+
 def create_random_fake_player():
+    if not skins_available():
+        return None
     have_gadget_icon = random.choice([True, False])
     gear_amount = random.choice([0, 1, 2])
     have_hypercharge_icon = random.choice([True, False])
@@ -175,6 +185,8 @@ def create_random_fake_player():
     return create_fake_player_image(full_path, ammo_amount, health_amount, health_percentage, username, have_gadget_icon=have_gadget_icon, gear_amount=gear_amount, have_hypercharge_icon=have_hypercharge_icon, force_first_color=force_first_color)
 
 def create_random_fake_other(func):
+    if not skins_available():
+        return None
     have_gadget_icon = random.choice([True, False])
     gear_amount = random.choice([0, 1, 2])
     have_hypercharge_icon = random.choice([True, False])

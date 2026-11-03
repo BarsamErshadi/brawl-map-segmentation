@@ -50,3 +50,7 @@ fake_brawler_generator/skin_seg_3.zip
 bestbrawler_pylaclasses2.onnx
 best.pt
 test.py
+
+# Model weights (Ultralytics downloads the base weights automatically)
+*.pt
+*.onnx

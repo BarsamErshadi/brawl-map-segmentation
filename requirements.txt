@@ -1,0 +1,9 @@
+ultralytics
+opencv-python
+numpy
+Pillow
+numba
+tqdm
+onnxruntime
+matplotlib
+PyYAML
